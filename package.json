@@ -1,0 +1,47 @@
+{
+  "name": "consequatursit",
+  "version": "1.0.0",
+  "description": "Advanced typescript localization support for VueJS",
+  "keywords": [
+    "non",
+    "locale",
+    "quo",
+    "formatting",
+    "date",
+    "number",
+    "formatjs"
+  ],
+  "main": "./lib/locale.directive.js",
+  "types": "./lib/locale.directive.d.ts",
+  "author": "RosemarieHowell",
+  "contributor": [
+    {
+      "name": "Sebastian Werner",
+      "email": "s.werner@sebastian-software.de"
+    }
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KatelynLind/consequatursit.git"
+  },
+  "dependencies": {
+    "intl": "^1.2.5",
+    "intl-format-cache": "^2.0.5",
+    "intl-messageformat": "^1.3.0",
+    "intl-relativeformat": "^1.3.0",
+    "lodash": "^4.17.4",
+    "vue": "^2.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "ava": "^0.19.1",
+    "babel-register": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "merge2": "^1.0.3",
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2",
+    "updtr": "^1.0.0"
+  }
+}
